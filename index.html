@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cliven Jacky Hlongo | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Cliven Jacky Hlongo</h1>
+      <p>Automation Tester | Web & Mobile | API | DevOps Engineer</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <p><strong>
+        I am an experienced Junior test automation specialist with a strong focus on ensuring the quality and reliability of web and mobile applications. I have hands-on experience in automating tests for Web and Android Applications, APIs (SOAP and REST). In addition to my testing experience, I have DevOps experience, particularly in configuring GitLab CI/CD pipelines to support continuous testing and integration workflows. I have worked with Dynatrace for application performance monitoring, ensuring system stability and proactive issue detection!
+      </strong></p>
+    </section>
+
+    <section id="skills">
+      <h2>SKILLS</h2>
+      <ul>
+        <strong>
+          <li>Selenium & Appium</li>
+          <li>REST & SOAP API Testing</li>
+          <li>GitLab CI/CD, Bitbucket, Jira, Bamboo</li>
+          <li>Java, Cucumber, TestNG, JUnit</li>
+          <li>Android & iOS Testing</li>
+          <li>SoapUI, Postman</li>
+        </strong>
+      </ul>
+    </section>
+
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <div class="education-content">
+          <ul>
+            <li><strong>ISTQB Foundation Level Certification</strong></li>
+            <li><button onclick="toggleCert()" class="cert-button">View Certificate</button></li>
+            <li><a href="https://www.credly.com/badges/542cebef-bc90-4486-8973-084e1dce20dd/linked_in_profile" target="_blank"><strong>Certified Git Associate (View Certificate)</strong></a></li>
+            <li><strong>Diploma in Computer Systems Engineering</strong></li>
+          </ul>
+          <img id="istqbCert" src="images/istqbCliven.jpg" alt="ISTQB Certificate" class="cert-img" style="display: none;" />
+        </div>
+      </section>
+      
+      
+      
+
+    <section id="contact">
+      <h2>CONTACT</h2>
+      <strong>
+        <p>Email: jackymashimbhy@gmail.com</p>
+        <p>Cell: 0810020325</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/cliven-jacky-h-9a7b44211" target="_blank">linkedin.com/in/cliven-jacky-h-9a7b44211</a></p>
+      </strong>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Cliven Jacky Hlongo. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script>
+    function toggleCert() {
+      const certImg = document.getElementById("istqbCert");
+      certImg.style.display = certImg.style.display === "none" ? "block" : "none";
+    }
+  </script>
+  
+</body>
+</html>
